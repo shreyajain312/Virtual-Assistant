@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.images img{
+    height:400px ;
+}
+.names{
+    font-size: 2rem;
+    color: rgb(120, 193, 193);
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.wellcome-messages{
+    font-size: 1.2rem;
+    color: rgb(174, 189, 203);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.speak{
+    display:flex;
+    flex-direction: row;
+    width:500px ;
+    height: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.speak .speach{
+    display:flex;
+    justify-content: center;
+    width:500px ;
+    height: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(180, 191, 203);
+}
+.speak .content{
+    width:400px ;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+.speak i{
+    font-size: 20px;
+    margin-top: 4px;
+}
